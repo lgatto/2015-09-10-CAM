@@ -128,6 +128,29 @@ Participants should bring their laptops and plan to participate actively. By the
 
 <hr/>
 
+
+<!--
+  ETHERPAD
+
+  Display the Etherpad for the workshop.  You can set this up in
+  advance or on the first day; either way, make sure you push changes
+  to GitHub after you have its URL.  To create an Etherpad, go to
+
+      http://etherpad.mozilla.org/YYYY-MM-DD-site
+
+  where 'YYYY-MM-DD-site' is the identifier for your workshop (e.g.,
+  '2015-06-10-esu'.
+-->
+{% if page.etherpad %}
+<p>
+  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <br/>
+  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+{% endif %}
+
+<hr/>
+
 <!--
   SCHEDULE
 
@@ -174,6 +197,8 @@ Participants should bring their laptops and plan to participate actively. By the
   <li><a href="http://datacarpentry.github.io/R-ecology/03-data-frames.html">Lesson 03 Introducing <code>data.frame</code></a></li>
 </ol>
 
+<h3>Day 2</h3>
+
 <h4>Data analysis and visualization in R</h4>
 
 <ol>
@@ -195,26 +220,6 @@ Participants should bring their laptops and plan to participate actively. By the
 
 <p>Data files for the workshop are available <a href="http://dx.doi.org/10.6084/m9.figshare.1314459">here</a>.</p>
 
-
-<!--
-  ETHERPAD
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://etherpad.mozilla.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop (e.g.,
-  '2015-06-10-esu'.
--->
-{% if page.etherpad %}
-<p>
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-{% endif %}
 
 <hr/>
 
