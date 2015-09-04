@@ -11,7 +11,7 @@ humantime: 9:30 - 17:30
 startdate: 2015-09-10
 enddate: 2015-09-11
 instructor: ["Laurent Gatto", "Krzysztof Strug"]
-helper: [""]
+helper: ["Gabriella Rustici"]
 contact: Gabriella Rustici <gr231@cam.ac.uk>
 etherpad: https://etherpad.mozilla.org/4QxH0286pR
 day1_am: "Data organization in spreadsheets and OpenRefine"
@@ -105,7 +105,7 @@ Participants should bring their laptops and plan to participate actively. By the
   a few specific software packages installed (listed
   <a href="#setup">below</a>). They are also required to abide by
   Data Carpentry's
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="http://software-carpentry.org/conduct.html">Code of Conduct</a>.
 </p>
 
 <!--
@@ -137,28 +137,69 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <h2>Schedule</h2>
 
-<div class="row">
-  <div class="col-md-6">
+<h3>Day 1</h3>
 
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
-       <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
-    </table>
- 
- 
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
-      <tr> <td>Afternoon</td>  <td>{{page.day2_pm}}</td> </tr>
-    </table>
- </div>
-</div>
+<h4>Data organization in spreadsheets and OpenRefine</h4>
 
-<h3>Data organization in spreadsheets and OpenRefine</h3>
-<h3>Introduction to R</h3>
-<h3>Data analysis and visualization in R</h3>
-<h3>SQL for data management</h3>
+<ol>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/00-intro.html">Introduction</a></li>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/01-format-data.html">Formatting data</a></li>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/02-common-mistakes.html">Common formatting problems</a></li>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/03-dates-as-data.html">Dates as data</a></li>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/04-quality-control.html">Quality control</a></li>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/05-exporting-data.html">Exporting data</a></li>
+  <li><a href="http://datacarpentry.github.io/spreadsheet-ecology-lesson/06-data-formats-caveats.html">Data Format Caveats</a></li>
+</ol>
+
+<p>Data files for the lesson are available
+here: <a href="https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0">https://www.dropbox.com/s/5ncuacnd3arjitc/survey<em>data</em>tabs.xls?dl=0</a></p>
+
+<h4>Data cleaning with OpenRefine</h4>
+
+<ol>
+  <li><a href="http://datacarpentry.github.io/OpenRefine-ecology/00-getting-started.html">Getting Started with OpenRefine</a></li>
+  <li><a href="http://datacarpentry.github.io/OpenRefine-ecology/01-working-with-openrefine.html">Working with OpenRefine - faceting, clustering &amp; splitting</a></li>
+  <li><a href="http://datacarpentry.github.io/OpenRefine-ecology/02-scripts.html">Scripts</a></li>
+  <li><a href="http://datacarpentry.github.io/OpenRefine-ecology/03-save-export.html">Saving and Exporting Projects and Files</a></li>
+</ol>
+
+<p>Data files for the lesson are available here:
+  <a href="https://www.dropbox.com/s/kbb4k00eanm19lg/Portal_rodents_19772002_scinameUUIDs.csv?dl=0">https://www.dropbox.com/s/kbb4k00eanm19lg/Portal<em>rodents</em>19772002_scinameUUIDs.csv?dl=0</a></p>
+
+<h4>Introduction to R</h>
+
+<ol>
+  <li><a href="http://datacarpentry.github.io/R-ecology/00-before-we-start.html">Lesson 00 Before we start</a></li>
+  <li><a href="http://datacarpentry.github.io/R-ecology/01-intro-to-R.html">Lesson 01 Introduction to R</a></li>
+  <li><a href="http://datacarpentry.github.io/R-ecology/02-starting-with-data.html">Lesson 02 Starting with data</a></li>
+  <li><a href="http://datacarpentry.github.io/R-ecology/03-data-frames.html">Lesson 03 Introducing <code>data.frame</code></a></li>
+  <li><a href="http://datacarpentry.github.io/R-ecology/04-dplyr.html">Lesson 04 Aggregating and analyzing data with dplyr</a></li>
+  <li><a href="http://datacarpentry.github.io/R-ecology/05-visualisation-ggplot2.html">Lesson 05 Data visualisation with ggplot2</a></li>
+  <li><a href="http://datacarpentry.github.io/R-ecology/06-r-and-sql.html">Lesson 06 R and SQL</a></li>
+</ol>
+
+<h4>Data analysis and visualization in R</h4>
+
+<ol>
+  <li><a href="http://datacarpentry.github.io/R-ecology/04-dplyr.html">Data analysis</a>
+  <li><a href="https://github.com/datacarpentry/R-ecology/blob/gh-pages/05-visualisation-ggplot2.Rmd">Data
+  visualisation with `ggplot2`</a>
+</ol>
+
+
+<h4>SQL for data management</h4>
+
+
+<ol>
+  <li><p><a href="http://datacarpentry.github.io/sql-ecology/00-sql-introduction.html">Lesson 00 Introduction to SQL</a></p></li>
+  <li><p><a href="http://datacarpentry.github.io/sql-ecology/01-sql-basic-queries.html">Lesson 01 Basic queries</a></p></li>
+  <li><p><a href="http://datacarpentry.github.io/sql-ecology/02-sql-aggregation.html">Lesson 02 Aggregation</a></p></li>
+  <li><p><a href="http://datacarpentry.github.io/sql-ecology/03-sql-joins-aliases.html">Lesson 03 Joins and aliases</a></p></li>
+</ol>
+
+<p>Data files for the workshop are available
+here: <a href="http://dx.doi.org/10.6084/m9.figshare.1314459">http://dx.doi.org/10.6084/m9.figshare.1314459</a></p>
+
 
 <!--
   ETHERPAD
