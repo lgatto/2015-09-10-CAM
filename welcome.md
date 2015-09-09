@@ -12,8 +12,6 @@
 - [Etherpad](https://etherpad.mozilla.org/4QxH0286pR)
 
 
-###  Content
-
 1. Data collection
 2. Data preparation, cleaning, tidying
 3. Analysis
