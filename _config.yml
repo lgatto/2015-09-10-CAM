@@ -11,7 +11,7 @@ dc_contact     : "admin@datacarpentry.org"
 dc_github      : "http://github.com/datacarpentry"
 swc_installer   : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
 #dc_lessons     : "http://software-carpentry.org/v5/novice"
-dc_site        : "http://datacarpentry.org"
+dc_site        : "http://www.datacarpentry.org/"
 dc_twitter     : "http://twitter.com/datacarpentry"
 #swc_vm          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtSTZLQzF4aVB4NDQ&export=download"
 #--------------------------------------------------------------------------------
